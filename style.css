@@ -1,0 +1,26 @@
+body {
+    background-size: cover;
+    background-attachment: fixed;
+    background: linear-gradient(135deg, rgba(255,0,0,1) 0%, rgba(213,122,255,1) 10%, rgba(255,0,0,1) 20%, rgba(172,52,227,1) 30%, rgba(255,0,0,1) 40%, rgba(213,122,255,1) 50%, rgba(255,0,0,1) 60%, rgba(172,52,227,1) 70%, rgba(255,0,0,1) 80%, rgba(213,122,255,1) 90%, rgba(255,0,0,1) 100%);
+    font-family: 'Montserrat';
+    color: white;
+}
+
+canvas {
+    background-color: white;
+    border: 5px black solid;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+#objectsDetected
+{
+font-size: 18px;
+border-radius: 20px;
+border: 2px black solid;
+width: fit-content;
+padding: 10px;
+background-color: white;
+color: black;
+}
+
